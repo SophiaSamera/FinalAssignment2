@@ -1,0 +1,65 @@
+body {
+  background-image: linear-gradient(lightcoral, plum);
+  height: 650px;
+}
+
+#cinnabun {
+  background-image: url(./Images/cinnabun.png);
+  background-size: 200px 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px 50px 50px 50px;
+  width: 190px;
+  height: 150px;
+  background-color: lavender;
+}
+
+#points {
+  text-align: center;
+  font-size: 30px;
+}
+
+#bow {
+  width: 200px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+  box-shadow: 3px 3px pink;
+}
+
+#flowa1 {
+  width: 150px;
+  height: 140px;
+  border: 3px solid black;
+  box-shadow: 3px 3px pink;
+}
+
+#flowa2 {
+  width: 150px;
+  height: 140px;
+  margin-left: auto; 
+  border: 3px solid black;
+  box-shadow: 3px 3px pink;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#great {
+  text-align: center;
+}
+
+#title {
+  background-color: white;
+  text-align: center;
+  width: 500px;
+  border: 3px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 3px 3px pink;
+  font-family: 'Courier New', Courier, monospace
+}
