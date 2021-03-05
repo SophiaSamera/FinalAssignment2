@@ -1,6 +1,6 @@
 body {
   background-image: linear-gradient(lightcoral, plum);
-  height: 650px;
+  height: 800px;
 }
 
 #cinnabun {
@@ -40,12 +40,10 @@ body {
 #flowa2 {
   width: 150px;
   height: 140px;
-  margin-left: auto; 
+  margin-left: auto;
   border: 3px solid black;
   box-shadow: 3px 3px pink;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
+  display: block
 }
 
 #great {
@@ -61,5 +59,5 @@ body {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 3px 3px pink;
-  font-family: 'Courier New', Courier, monospace
+  font-family: 'Courier New', Courier, monospace;
 }

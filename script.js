@@ -7,9 +7,9 @@ function game () {
   points = parseInt(points)
   point = parseInt(point)
   points = points + 1
-  point = points - 150
+  const point = 150
 
-  for (points =< 150) {
+  for (points = 0; points < 150; point++) {
     document.getElementById('need').innerHTML = 'You still need ' + point + ' to complete the game'
   if (points == 50) {
   document.getElementById('cinnabun').style.backgroundImage = "url('./Images/dress.png')"
