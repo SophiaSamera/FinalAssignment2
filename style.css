@@ -1,6 +1,6 @@
 body {
   background-image: linear-gradient(lightcoral, plum);
-  height: 800px;
+  height: 850px;
 }
 
 #cinnabun {
@@ -60,4 +60,10 @@ body {
   margin-right: auto;
   box-shadow: 3px 3px pink;
   font-family: 'Courier New', Courier, monospace;
+}
+
+#what {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
