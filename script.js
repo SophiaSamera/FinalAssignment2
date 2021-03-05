@@ -26,7 +26,7 @@ function count () {
   point = parseInt(point)
   point = 150 - points
 
-  for (let points = 0; points < 150; point++) {
-    document.getElementById('need').innerHTML = 'You still need' + point + 'to complete the game'
+  for (let points = 0; points < 150; points++) {
+    document.getElementById('need').innerHTML = 'You still need ' + point + ' to complete the game'
   }
 }
